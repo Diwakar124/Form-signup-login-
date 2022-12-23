@@ -1,0 +1,76 @@
+body{
+    background: url('img.jpg') no-repeat center center fixed;
+    background-size: cover; 
+    font-family: 'Roboto', sans-serif;
+}
+.signup-box
+{
+    width: 360px;
+    height: 620px;
+      background-color: rgb(204, 128, 241);   
+    margin: auto;
+    border-radius: 5px;
+    color: rgb(18, 17, 17);
+
+}
+
+.login
+{
+    width: 360px;
+    height: 280px;
+      background-color: rgb(204, 131, 240);
+    margin: auto;
+    border-radius: 5px;
+    color: rgb(18, 17, 17);
+
+}
+h1{
+    text-align: center;
+    margin-top: 15px;
+}
+h4{
+    text-align: center;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    display: flex;
+    margin-top: 15px;
+    font-size: 18px;
+}
+input{
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border: 1px solid grey;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="button"]
+{
+    width:315px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color:#12d2a2 ;
+    color: white; 
+    font-size: 18px;
+}
+p{
+    text-align: center;
+    padding-top: 2px;
+    font: size 15px;
+}
+.already{
+    text-align: center;
+    color: white; 
+    font-size: 15px;
+    margin-top: -40px;
+}
+.already a{
+    color: rgb(5, 40, 244)
+}
+
